@@ -1,0 +1,121 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: #0d0f1a;
+    color: #e0e6f1;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #131728;
+    border-bottom: 1px solid #1f2335;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00bfff; /* Neon Blue */
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    color: #e0e6f1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    color: #00bfff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: #0d0f1a;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #a8b2c3;
+    font-size: 16px;
+}
+
+.btn {
+    background: #00bfff;
+    color: #0d0f1a;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #0095cc;
+}
+
+.btn.small {
+    padding: 8px 15px;
+    font-size: 12px;
+}
+
+/* Dashboard Section */
+.dashboard-preview {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.dashboard-preview h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.dashboard-card {
+    background: #131728;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #1f2335;
+    margin-top: 30px;
+}
+
+.dashboard-card ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.dashboard-card li {
+    margin: 5px 0;
+    color: #a8b2c3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 80px;
+    background: #131728;
+    border-top: 1px solid #1f2335;
+    font-size: 13px;
+    color: #6f7486;
+}
